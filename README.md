@@ -12,22 +12,24 @@
 - `public/` – Static asset
 
 ## 📁 Struktur Folder
-
+```
 localtube/
 ├── backend/ ← Flask API untuk download & streaming video
 ├── frontend/ ← React UI yang menampilkan video
 ├── README.md ← Dokumentasi umum proyek
+```
 
 ### 🔙 Backend (Flask)
-
+```
 backend/
 ├── app.py ← Entry point Flask
 ├── routes/
 ├── downloads/ ← Folder tempat menyimpan video
 ├── requirements.txt ← Dependensi backend
+```
 
 ### 🎨 Frontend (React + Vite + Tailwind)
-
+```
 frontend/
 ├── index.html
 ├── package.json
@@ -42,6 +44,7 @@ frontend/
 │ ├── pages/
 │ └── components/
 └── node_modules/
+```
 
 ## 🧪 Development Scripts
 
